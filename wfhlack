@@ -84,7 +84,7 @@ end)
                if getgenv().NotifMode then
     			game.StarterGui:SetCore("SendNotification", {
         Title = "🎣LOCK";
-        Text = "Fishing"..tostring(Plr.Character.Humanoid.DisplayName);
+        Text = "Fishing |"..tostring(Plr.Character.Humanoid.DisplayName);
     
     })
     end
